@@ -12,6 +12,6 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - research.md
-  - data-code.md
-  - cv.md
+  - research.markdown
+  - data-code.markdown
+  - cv.markdown

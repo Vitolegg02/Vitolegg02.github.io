@@ -10,3 +10,8 @@ github_username: Vitolegg02
 theme: minima
 plugins:
   - jekyll-feed
+
+header_pages:
+  - research.md
+  - data-code.md
+  - cv.md

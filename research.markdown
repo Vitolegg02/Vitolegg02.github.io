@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
+custom_class: research-page
 ---
 
 My research interests lie primarily in political economy 

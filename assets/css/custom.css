@@ -15,11 +15,24 @@
     text-align: left;
 }
 
-/* Homepage introduction */
+/* Justify paragraphs on the Research page */
+body:has(a[href="/research/"].active) .page-content p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.65;
+}
+
+.research-page p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.65;
+}
+
+/* Homepage introduction: text on the left, photo on the right */
 .profile-intro {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 150px;
-    gap: 30px;
+    grid-template-columns: minmax(0, 1fr) 140px;
+    gap: 25px;
     align-items: start;
     margin: 20px 0 35px;
 }
@@ -27,27 +40,27 @@
 /* Profile photograph */
 .profile-photo {
     display: block;
-    width: 150px;
-    height: 190px;
+    width: 140px;
+    height: 175px;
     object-fit: cover;
     object-position: center 25%;
     border-radius: 5px;
 }
 
-/* Introduction text */
+/* Prevent text from overflowing */
 .profile-text {
     min-width: 0;
 }
 
-/* Mobile layout */
+/* Keep the image beside the text on smaller screens too */
 @media (max-width: 600px) {
     .profile-intro {
-        grid-template-columns: minmax(0, 1fr) 110px;
-        gap: 15px;
+        grid-template-columns: minmax(0, 1fr) 105px;
+        gap: 12px;
     }
 
     .profile-photo {
-        width: 110px;
-        height: 145px;
+        width: 105px;
+        height: 135px;
     }
 }

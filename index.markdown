@@ -4,6 +4,7 @@ title: Home
 ---
 
 <div class="profile-intro">
+
   <div class="profile-text">
     <h1>Viktor Petukhov</h1>
 
@@ -15,13 +16,13 @@ title: Home
     <p>
       I aspire to become an economist studying the microfoundations
       of and mechanisms behind autocracies and other nondemocratic
-      regimes. My research interests lie in Development Economics
-      and Political Economy.
+      regimes.
     </p>
 
     <p>
-      My projects combine theoretical insights and empirical
-      analysis to understand political and economic phenomena.
+      My research interests lie in Development Economics and
+      Political Economy, particularly autocratic institutions,
+      conflict, natural resources, religion, and culture.
     </p>
 
     <p>
@@ -32,8 +33,9 @@ title: Home
   </div>
 
   <img src="/assets/images/profile.jpg"
-       alt="My Portrait"
+       alt="Portrait of Viktor Petukhov"
        class="profile-photo">
+
 </div>
 
 ## Research Interests

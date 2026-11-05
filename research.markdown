@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-# Research
-
 My research interests lie primarily in political economy 
 and development economics, particularly studying the behavior of politicians in non-democratic regimes.
 
@@ -16,7 +14,6 @@ and development economics, particularly studying the behavior of politicians in 
 This paper studies how electoral career concerns affect local public performance. I develop a moral hazard model and compare the combination of explicit and im plicit incentives with the case of bonus payments only. I find that career concerns are more effective in smaller communities with tighter competition, while bonus payments become more relevant otherwise. I test these predictions using a reform introducing reelection for municipal presidents in Mexico, and exploiting the stag gered implementation across states. A difference-in-differences estimation shows that reelection increases municipal nighttime luminosity by about 0.25 log points. The effect is robust across specifications, stronger in smaller municipalities, and weaker for incumbents who won by large margins.
 
 [Download paper (PDF)](/assets/papers/mthesis.pdf)
-
 [Replication materials](#replication-materials)
 
 ### Trade Relationships and Voting at the UN over the Russian-Ukrainian Conflict
@@ -57,5 +54,5 @@ This project is a broad study of Religion and Development in Russia. I create an
 
 ## Replication Materials
 
-See the [Data & Code page](/data-code/) for replication 
+See the [Data & Code](/data-code/) for replication 
 packages and documentation.

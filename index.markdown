@@ -3,9 +3,13 @@ layout: home
 title: Home
 ---
 
-<div class="profile-intro">
+<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 25px;">
 
-  <div class="profile-text">
+  <img src="/assets/images/profile.jpg"
+       alt="Portrait of Viktor Petukhov"
+       style="width: 140px; min-width: 140px; height: 175px; object-fit: cover; border-radius: 5px;">
+
+  <div style="flex: 1; min-width: 0;">
     <h1>Viktor Petukhov</h1>
 
     <p>
@@ -24,34 +28,9 @@ title: Home
       Political Economy, particularly autocratic institutions,
       conflict, natural resources, religion, and culture.
     </p>
-
-    <p>
-      <a href="/assets/papers/cv.pdf">CV</a> |
-      <a href="https://github.com/Vitolegg02">GitHub</a> |
-      <a href="mailto:vpetukhov@nes.ru">Email</a>
-    </p>
   </div>
 
-  <img src="/assets/images/profile.jpg"
-       alt="Portrait of Viktor Petukhov"
-       class="profile-photo">
-
 </div>
-
-## Research Interests
-
-- Political Economy
-- Development Economics
-- Autocratic Institutions
-- Conflict and Political Violence
-- Natural Resources
-
-## Current Research
-
-I work on several projects studying political institutions,
-economic incentives, and the behavior of political actors.
-
-See my [Research page](/research/) for more information.
 
 ## Contact
 

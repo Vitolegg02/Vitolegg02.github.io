@@ -1,8 +1,9 @@
-/* Main text */
+/* Justify ordinary paragraphs */
 .page-content p {
-  text-align: justify;
-  line-height: 1.65;
-  margin-bottom: 1.2em;
+    text-align: justify !important;
+    text-justify: inter-word;
+    line-height: 1.65;
+    margin-bottom: 1.2em;
 }
 
 /* Keep headings and navigation left-aligned */
@@ -11,37 +12,36 @@
 .page-content h3,
 .site-nav,
 .site-title {
-  text-align: left;
+    text-align: left;
 }
 
-/* Improve spacing between research projects */
-.page-content h3 {
-  margin-top: 1.8em;
-  margin-bottom: 0.6em;
-}
-
+/* Homepage photograph and introduction */
 .profile-intro {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 30px;
-  align-items: start;
-  margin: 20px 0 35px;
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 30px;
+    align-items: start;
+    margin: 20px 0 35px;
 }
 
 .profile-photo {
-  width: 100%;
-  max-width: 220px;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 4px;
+    display: block;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 5px;
 }
 
+/* Mobile layout */
 @media (max-width: 600px) {
-  .profile-intro {
-    grid-template-columns: 1fr;
-  }
+    .profile-intro {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 
-  .profile-photo {
-    max-width: 180px;
-  }
+    .profile-photo {
+        width: 170px;
+        height: 212px;
+    }
 }

@@ -10,8 +10,6 @@ title: Home
        style="width: 140px; min-width: 140px; height: 175px; object-fit: cover; border-radius: 5px;">
 
   <div style="flex: 1; min-width: 0;">
-    <h1>Viktor Petukhov</h1>
-
     <p>
       I am a recent graduate with honors from the Master of Arts
       in Economics program at the New Economic School in Moscow.

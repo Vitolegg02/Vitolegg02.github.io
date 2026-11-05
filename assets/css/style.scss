@@ -1,0 +1,26 @@
+---
+---
+
+@import "minima";
+
+/* Main text */
+.page-content p {
+  text-align: justify;
+  line-height: 1.65;
+  margin-bottom: 1.2em;
+}
+
+/* Keep headings and navigation left-aligned */
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.site-nav,
+.site-title {
+  text-align: left;
+}
+
+/* Improve spacing between research projects */
+.page-content h3 {
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}

@@ -15,33 +15,39 @@
     text-align: left;
 }
 
-/* Homepage photograph and introduction */
+/* Homepage introduction */
 .profile-intro {
     display: grid;
-    grid-template-columns: 200px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 150px;
     gap: 30px;
     align-items: start;
     margin: 20px 0 35px;
 }
 
+/* Profile photograph */
 .profile-photo {
     display: block;
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 190px;
     object-fit: cover;
     object-position: center 25%;
     border-radius: 5px;
 }
 
+/* Introduction text */
+.profile-text {
+    min-width: 0;
+}
+
 /* Mobile layout */
 @media (max-width: 600px) {
     .profile-intro {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: minmax(0, 1fr) 110px;
+        gap: 15px;
     }
 
     .profile-photo {
-        width: 170px;
-        height: 212px;
+        width: 110px;
+        height: 145px;
     }
 }
